@@ -35,7 +35,7 @@ def bar_graph_countries(dataframe):
     
     ax1.bar(dataframe['Country'], collected, color = 'blue')
     ax1.bar(dataframe['Country'], uncollected, color = 'red', bottom = collected)
-    ax1.set_ylabel('Volume (million m3/year)', fontsize = 11)
+    ax1.set_ylabel('WWp (million m3/year)', fontsize = 11)
     ax1.set_xlabel('Country', fontsize = 11)
     ax1.legend(['Collected', 'Uncollected'], frameon = False, title = 'Quality of wastewater')
     ax1.tick_params(axis = 'x', labelrotation = 90)
@@ -153,42 +153,74 @@ df5 = wastewater_plants_count(df3, df2)
 
 
 #-----------------------------------------------------------------------------
-st.markdown("<h1 style='text-align: center; color: black;'>Data visualization for the scientific manuscript:</h1>", unsafe_allow_html=True)
+st.markdown("<h1 style='text-align: center; color: black;font-weight: bold'>Data visualization for the scientific manuscript:</h1>", unsafe_allow_html=True)
 
-st.markdown("""<h2 style='text-align: center; color: black;'>
+st.markdown("""<h2 style='text-align: center; color: black;font-weight: bold'>
              Temporal variation of sewage contamination of a tropical and highly urbanized estuary in Northeastern Brazil</h1>""",
+            unsafe_allow_html=True)
+
+st.markdown("""<h5 style='text-align: center; color: black;'>
+             Roxanny Helen de Arruda-Santosa<sup>a</sup>, Bruno Varella Motta da Costa<sup>a</sup>, Célio Freire Mariz Jr.<sup>b</sup>, Paulo Sérgio Martins de Carvalho<sup>b</sup>, Eliete Zanardi-
+             Lamardo<sup>a</sup></h5>""",
+            unsafe_allow_html=True)
+
+st.markdown("""<h5 style='text-align: left; color: black;'>
+             <sup>a</sup>Departmento de Oceanografia da Universidade Federal de Pernambuco, Av. Arquitetura s/n, Recife, PE. CEP: 50740-550, Brazil.</h5>""",
+            unsafe_allow_html=True)
+
+st.markdown("""<h5 style='text-align: left; color: black;'>
+             <sup>b</sup>Departmento de Zoologia da Universidade Federal de Pernambuco, Rua Prof. Nelson Chaves, s/n, Recife, PE. CEP: 50670-420, Brazil.
+             </h5>""",
             unsafe_allow_html=True)
 
 with st.container(border=True):
 
-    st.markdown("<h3 style='text-align: center; color: black;'>Introduction</h3>", unsafe_allow_html=True)
+    st.markdown("<h3 style='text-align: center; color: black;font-weight: bold'>Introduction</h3>", unsafe_allow_html=True)
 
 with st.container():
 
-    st.markdown("<h3 style='text-align: center; color: black;'>Figures</h3>", unsafe_allow_html=True)
+    st.markdown("<h3 style='text-align: center; color: black;font-weight: bold'>Figures</h3>", unsafe_allow_html=True)
 
     col1, col2 = st.columns([0.6, 0.4], vertical_alignment = "top", border = True)
 
     with col1:
 
-        st.markdown("<h4 style='text-align: center; color: black;'>Figure 1</h4>", unsafe_allow_html=True)
+        st.markdown("<h4 style='text-align: center; color: black;font-weight: bold'>Figure 1</h4>", unsafe_allow_html=True)
         bar_graph_countries(df2)
     
     with col2:
         
-        st.markdown("<h4 style='text-align: center; color: black;'>Legend 1</h4>", unsafe_allow_html=True)
+        st.markdown("<h4 style='text-align: center; color: black;font-weight: bold'>Legend 1</h4>", unsafe_allow_html=True)
+        st.markdown("""<h6 style='text-align: justify; color: black;'>
+        Wastewater production (WWp) of 10 countries based on the dataset published by Jones et al. (2020).
+        WWp is the sum of collected and uncollected wastewater and it is equivalent to return flows from domestic and manufacturing sources 
+        (Jones et al., 2021). Uncollected WWp is the total WWp minus collected WWp.</h6>""",
+                    unsafe_allow_html=True)
+        st.markdown("""<h5 style='text-align: justify; color: black;'>
+        <u>References:</u></h5>""",
+                    unsafe_allow_html=True)
+        st.markdown("""<h6 style='text-align: justify; color: black;'>
+        1. Jones, ER; van Vliet, MTH; Qadir, M; B, MFP. 2020. Country-level and gridded wastewater production, collection, treatment and re-use [dataset]. PANGAEA. <a href="https://doi.pangaea.de/10.1594/PANGAEA.918731">https://doi.pangaea.de/10.1594/PANGAEA.918731</a></h6>""",
+                    unsafe_allow_html=True)
+        st.markdown("""<h6 style='text-align: justify; color: black;'>
+        2. Jones, ER, van Vliet, MTH, Qadir, M, Bierkens, MFP. 2021. Country-level and gridded estimates of wastewater production, collection, treatment and reuse. Earth Syst. Sci. Data 13, 237-254. <a href="https://doi.org/10.5194/essd-13-237-2021">https://doi.org/10.5194/essd-13-237-2021</a></h6>""",
+                    unsafe_allow_html=True)
         
     col3, col4 = st.columns([0.6, 0.4], vertical_alignment = "top", border = True)
 
     with col3:
         
-        st.markdown("<h4 style='text-align: center; color: black;'>Figure 2</h4>", unsafe_allow_html=True)
+        st.markdown("<h4 style='text-align: center; color: black;font-weight: bold'>Figure 2</h4>", unsafe_allow_html=True)
         boxplot_economic_classification(df1)
         
     with col4:
         
-        st.markdown("<h4 style='text-align: center; color: black;'>Legend 2</h4>", unsafe_allow_html=True)
-
+        st.markdown("<h4 style='text-align: center; color: black;font-weight: bold'>Legend 2</h4>", unsafe_allow_html=True)
+        st.markdown("""<h6 style='text-align: justify; color: black;'>
+        Boxplot of wastewater production (WWp) of countries grouped by economic classification (Jones et al., 2020).
+        </h6>""",
+                    unsafe_allow_html=True)
+        
     col5, col6 = st.columns([0.6, 0.4], vertical_alignment = "top", border = True)
 
     with col5:
@@ -198,18 +230,18 @@ with st.container():
 
     with col6:
 
-        st.markdown("<h4 style='text-align: center; color: black;'>Legend 3</h4>", unsafe_allow_html=True)
+        st.markdown("<h4 style='text-align: center; color: black;font-weight: bold'>Legend 3</h4>", unsafe_allow_html=True)
 
     col7, col8 = st.columns([0.6, 0.4], vertical_alignment = "top", border = True)
 
     with col7:
 
-        st.markdown("<h4 style='text-align: center; color: black;'>Figure 3</h4>", unsafe_allow_html=True)
+        st.markdown("<h4 style='text-align: center; color: black;font-weight: bold'>Figure 3</h4>", unsafe_allow_html=True)
         boxplot_spm_water(path3)
 
     with col8:
 
-        st.markdown("<h4 style='text-align: center; color: black;'>Legend 4</h4>", unsafe_allow_html=True)
+        st.markdown("<h4 style='text-align: center; color: black;font-weight: bold'>Legend 4</h4>", unsafe_allow_html=True)
         
 
     
