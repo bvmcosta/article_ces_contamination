@@ -148,13 +148,14 @@ path1 = 'datasets/global_wastewater_production.csv'
 path2 = 'datasets/hydrowaste_database.csv'
 path3 = 'datasets/water_samples.csv'
 logo  = 'image/logo_organomar1.png'
-
+drainage_network = 'figure/recife_drainage_network.jpeg'
+recife_landuse_landcover = 'figure/landuse_landcover.jpeg'
+#-----------------------------------------------------------------------------
 df1, df2, df3 = load_data(path1, path2)
-
 df4 = groups_economic_classification(df1)
 df5 = wastewater_plants_count(df3, df2)
 #-----------------------------------------------------------------------------
-st.markdown("<h1 style='text-align: center; color: black;font-weight: bold'>Data visualization for the scientific manuscript:</h1>", unsafe_allow_html=True)
+st.markdown("<h1 style='text-align: center; color: black;font-weight: bold'>Data visualization for the scientific manuscript</h1>", unsafe_allow_html=True)
 
 st.markdown("""<h2 style='text-align: center; color: black;font-weight: bold'>
              Temporal variation of sewage contamination of a tropical and highly urbanized estuary in Northeastern Brazil</h1>""",
@@ -206,8 +207,6 @@ with st.container(border=True):
                     (dry versus wet season) of treated effluent outflow from three STPs to this estuary to better understand the observed contamination
                     variation in environmental matrices.</h5>""",
                 unsafe_allow_html=True)
-    
-
 #-----------------------------------------------------------------------------
 with st.container():
 
@@ -260,12 +259,19 @@ with st.container():
 #-----------------------------------------------------------------------------
     st.text('')
     st.text('')
-    with st.container():
-
-        st.markdown("""<h4 style='text-align: center; color: black;'><u>Figure 4</u> - Map of Recife city.</h4>""",
-                    unsafe_allow_html=True)
-#-----------------------------------------------------------------------------
     
+    with st.container(border=True):
+
+        st.markdown("""<h4 style='text-align: justify; color: black;'><u>Figure 4</u> - Maps of Recife city showing the urban channels (A) and the
+        underground pipelines network (B) for urban drainage, and the land use/land cover of the city (C) (EMPREL, 2021). The lower (30 < salinity <span>&#8804;</span> 35), 
+        middle (2.5 < salinity <span>&#8804;</span> 30) and upper estuaries (salinity <span>&#8804;</span> 2.5) of Capibaribe Estuarine System according to identified by Noriega et al. (2013) are showed in D.</h4>""", 
+                    unsafe_allow_html=True)
+
+        drainage_network = Image.open(drainage_network)
+        st.image(drainage_network, use_container_width = True)
+        st.text('')
+        st.image(recife_landuse_landcover, use_container_width = True)
+#-----------------------------------------------------------------------------
     with st.container(border=True):
 
         st.markdown("""<h5 style='text-align: justify; color: black;'>
@@ -286,12 +292,16 @@ with st.container():
             2022.">https://doi.org/10.5194/essd-14-559-2022, 2022.</a>
             </h6>""",
                         unsafe_allow_html=True)
-            
-
-    
-        
-    
-    
+        st.markdown("""<h6 style='text-align: justify; color: black;'>
+            4. EMPREL. 2022. Portal de dados abertos da Prefeitura da Cidade de Recife. Empresa Municipal de Informática. Disponível em:<a 
+            href="http://www.dados.recife.pe.gov.br/en/dataset/cobertura-da-terra">http://www.dados.recife.pe.gov.br/en/dataset/cobertura-da-terra.</a>
+            </h6>""",
+                        unsafe_allow_html=True)
+        st.markdown("""<h6 style='text-align: justify; color: black;'>
+            5. Noriega, CED; Araujo, M; Lefevre, N. 2013. Spatial and temporal variability of the CO2 fluxes in a Tropical, Highly Urbanized Estuary.
+            Estuaries and Coasts, 36, 1054-1072. <a href="https://doi.org/10.1007/s12237-013-9608-1">https://doi.org/10.1007/s12237-013-9608-1.</a>
+            </h6>""",
+                        unsafe_allow_html=True)
         
     
 
