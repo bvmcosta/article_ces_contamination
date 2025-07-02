@@ -8,7 +8,7 @@ from PIL import Image
 st.set_page_config(page_title = 'Sewage contamination of an urban estuary', layout = 'wide')
 #-----------------------------------------------------------------------------
 #Functions
-@st.cache_data
+@st.cache_resource
 def load_data(path1, path2):
 
     ww_production = pd.read_csv(path1)
@@ -180,6 +180,7 @@ with st.sidebar:
 
         logo = Image.open(logo)
         st.image(logo, use_container_width = True)
+        st.logo(logo)
 
     with st.container():
 
@@ -192,7 +193,7 @@ with st.sidebar:
         st.markdown("""<h6 style='text-align: center; color: black;'>
                     The datasets and geojson files used to construct this web application are stored in the github
                     repository of Bruno Varella Motta da Costa - <a href="https://github.com/bvmcosta/article_ces_contamination.git">
-                    https://github.com/bvmcosta/article_ces_contamination.git</a>.</h6>""",
+                    https://github.com/bvmcosta/article_ces_contamination.git</a></h6>""",
                 unsafe_allow_html=True)
 #-----------------------------------------------------------------------------
 with st.container(border=True):
