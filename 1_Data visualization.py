@@ -162,8 +162,8 @@ st.markdown("""<h2 style='text-align: center; color: black;font-weight: bold'>
             unsafe_allow_html=True)
 
 st.markdown("""<h5 style='text-align: center; color: black;'>
-             Roxanny Helen de Arruda-Santosa<sup>a</sup>, Bruno Varella Motta da Costa<sup>a</sup>, Célio Freire Mariz Jr.<sup>b</sup>, Paulo Sérgio Martins de Carvalho<sup>b</sup>, Eliete Zanardi-
-             Lamardo<sup>a</sup></h5>""",
+             Roxanny Helen de Arruda-Santosa<sup>a</sup>, Bruno Varella Motta da Costa<sup>a</sup>, Célio Freire Mariz Jr.<sup>b</sup>, Paulo Sérgio Martins de 
+             Carvalho<sup>b</sup>, Eliete Zanardi-Lamardo<sup>a</sup></h5>""",
             unsafe_allow_html=True)
 
 st.markdown("""<h5 style='text-align: left; color: black;'>
@@ -263,8 +263,9 @@ with st.container():
     with st.container(border=True):
 
         st.markdown("""<h4 style='text-align: justify; color: black;'><u>Figure 4</u> - Maps of Recife city showing the urban channels (A) and the
-        underground pipelines network (B) for urban drainage, and the land use/land cover of the city (C) (EMPREL, 2021). The lower (30 < salinity <span>&#8804;</span> 35), 
-        middle (2.5 < salinity <span>&#8804;</span> 30) and upper estuaries (salinity <span>&#8804;</span> 2.5) of Capibaribe Estuarine System according to identified by Noriega et al. (2013) are showed in D.</h4>""", 
+        underground pipelines network (B) for urban drainage, and the land use/land cover of the city (C) (EMPREL, 2021). The lower 
+        (30 < salinity <span>&#8804;</span> 35, yellow), middle (2.5 < salinity <span>&#8804;</span> 30, green) and upper estuaries 
+        (salinity <span>&#8804;</span> 2.5, blue) of the Capibaribe Estuarine System according to identified by Noriega et al. (2013) are showed in D.</h4>""", 
                     unsafe_allow_html=True)
 
         drainage_network = Image.open(drainage_network)
