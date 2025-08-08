@@ -18,7 +18,7 @@
 # Data Science tools
 >>
 >> - <em>Python</em> (version 3.9.21)
->> - Windows Subsystem for Linux (WSL) for management of virtual environment
+>> - Windows Subsystem for Linux (WSL)
 >> - Git
 >> - Jupyter Notebook
 
