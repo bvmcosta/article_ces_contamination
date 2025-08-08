@@ -1,10 +1,10 @@
 <p align = "center"><img src="image/logo_horizontal.jpg" alt="" width="500" height="500"/></p>
-
-
+<p align = "center"><a href="https://www.ufpe.br/organomar">https://www.ufpe.br/organomar</a></p>
+<br>
 
 # Introduction
 >>
->><div style="text-align: justify">This repository was created to support the scientific manuscript "<em>Temporal variation of sewage contamination of a tropical and highly >>urbanized estuary in Northeastern Brazil</em>". This manuscript was submitted to <a href="https://www.sciencedirect.com/journal/science-of-the-total-environment">Science >>of the Total Environment (STOTEN)</a> by PhD Roxanny Helen de Arruda-Santos<sup>a1</sup>, PhD Bruno Varella Motta da Costa<sup>a2</sup>, PhD Célio Freire Mariz Jr.<sup>b3</sup>, PhD Paulo Sérgio Martins de Carvalho<sup>b4</sup> and PhD Eliete Zanardi-Lamardo<sup>a5*</sup>.</div><br>
+>><div style="text-align: justify">This repository was created to support the scientific manuscript "<em>Temporal variation of sewage contamination of a tropical and highly >>urbanized estuary in Northeastern Brazil</em>". The manuscript was submitted to the journal<a href="https://www.sciencedirect.com/journal/science-of-the-total-environment">Science >>of the Total Environment (STOTEN)</a> by PhD Roxanny Helen de Arruda-Santos<sup>a1</sup>, PhD Bruno Varella Motta da Costa<sup>a2</sup>, PhD Célio Freire Mariz Jr.<sup>b3</sup>, PhD Paulo Sérgio Martins de Carvalho<sup>b4</sup> and PhD Eliete Zanardi-Lamardo<sup>a5*</sup>.</div><br>
 >>
 >><sup>a</sup>Department of Oceanography of Federal University of Pernambuco, Av. Arquitetura s/n, Recife, PE. CEP: 50740-550, Brazil.<br>
 >><sup>b</sup>Department of Oceanography of Federal University of Pernambuco, Rua Prof. Nelson Chaves, s/n, Recife, PE. CEP: 50670-420, Brazil.<br>
