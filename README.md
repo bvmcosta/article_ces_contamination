@@ -10,10 +10,10 @@
 >><sup>b</sup>Department of Oceanography of Federal University of Pernambuco, Rua Prof. Nelson Chaves, s/n, Recife, PE. CEP: 50670-420, Brazil.<br>
 >>
 >> 1 roxanny.helen@ufpe.br; <a href="http://lattes.cnpq.br/5060083607081631">Currículo <em>Lattes</em></a><br>
->> 2 bruno.vmcosta@ufpe.br; <a href="http://lattes.cnpq.br/5060083607081631">Currículo <em>Lattes</em></a><br>
->> 3 celio.mariz@ufpe.br; <a href="http://lattes.cnpq.br/5060083607081631">Currículo <em>Lattes</em></a><br>
->> 4 paulo.smcarvalho@ufpe.br; <a href="http://lattes.cnpq.br/5060083607081631">Currículo <em>Lattes</em></a><br>
->> 5 eliete.zanardi@ufpe.br; <a href="http://lattes.cnpq.br/5060083607081631">Currículo <em>Lattes</em></a><br>
+>> 2 bruno.vmcosta@ufpe.br; <a href="http://lattes.cnpq.br/2290636648098144">Currículo <em>Lattes</em></a><br>
+>> 3 celio.mariz@ufpe.br; <a href="http://lattes.cnpq.br/3620561512172733">Currículo <em>Lattes</em></a><br>
+>> 4 paulo.smcarvalho@ufpe.br; <a href="http://lattes.cnpq.br/1366134399739217">Currículo <em>Lattes</em></a><br>
+>> 5* Corresponding author; eliete.zanardi@ufpe.br; <a href="http://lattes.cnpq.br/2702172869881870">Currículo <em>Lattes</em></a><br>
 
 
 # Ferramentas utilizadas
