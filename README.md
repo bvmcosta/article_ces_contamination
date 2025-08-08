@@ -11,7 +11,7 @@
 >>
 >> 1 roxanny.helen@ufpe.br; <a href="http://lattes.cnpq.br/5060083607081631">Currículo <em>Lattes</em></a>; <a href="">ORCID</em></a><br>
 >> 2 bruno.vmcosta@ufpe.br; <a href="http://lattes.cnpq.br/2290636648098144">Currículo <em>Lattes</em></a>; <a href="https://orcid.org/0000-0003-4481-4236">ORCID</a><br>
->> 3 celio.mariz@ufpe.br; <a href="http://lattes.cnpq.br/3620561512172733">Currículo <em>Lattes</em></a>; <a href="">ORCID</a><br>
+>> 3 celio.mariz@ufpe.br; <a href="http://lattes.cnpq.br/3620561512172733">Currículo <em>Lattes</em></a>; <a href="https://orcid.org/0000-0003-0005-2647">ORCID</a><br>
 >> 4 paulo.smcarvalho@ufpe.br; <a href="http://lattes.cnpq.br/1366134399739217">Currículo <em>Lattes</em></a>; <a href="https://orcid.org/0000-0002-4957-9768">ORCID</a><br>
 >> 5* Corresponding author; eliete.zanardi@ufpe.br; <a href="http://lattes.cnpq.br/2702172869881870">Currículo <em>Lattes</em></a>; <a href="https://orcid.org/0000-0003-3546-6479">ORCID</a><br>
 
