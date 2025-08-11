@@ -272,37 +272,7 @@ with st.container():
         st.image(drainage_network, use_container_width = True)
         st.text('')
         st.image(recife_landuse_landcover, use_container_width = True)
-#-----------------------------------------------------------------------------
-    with st.container(border=True):
-
-        st.markdown("""<h5 style='text-align: justify; color: black;'>
-            <u>References:</u></h5>""",
-                        unsafe_allow_html=True)
-        st.markdown("""<h6 style='text-align: justify; color: black;'>
-            1. Jones, ER; van Vliet, MTH; Qadir, M; B, MFP. 2020. Country-level and gridded wastewater production, collection, treatment and re-use [dataset]. 
-            PANGAEA. <a href="https://doi.pangaea.de/10.1594/PANGAEA.918731">https://doi.pangaea.de/10.1594/PANGAEA.918731</a></h6>""",
-                        unsafe_allow_html=True)
-        st.markdown("""<h6 style='text-align: justify; color: black;'>
-            2. Jones, ER, van Vliet, MTH, Qadir, M, Bierkens, MFP. 2021. Country-level and gridded estimates of wastewater production, collection, treatment 
-            and reuse. Earth Syst. Sci. Data 13, 237-254. <a href="https://doi.org/10.5194/essd-13-237-2021">https://doi.org/10.5194/essd-13-237-2021</a>
-            </h6>""",
-                        unsafe_allow_html=True)
-        st.markdown("""<h6 style='text-align: justify; color: black;'>
-            3. Macedo, HE; Lehner, B; Nicell, J; Grill, G; Li, J; Limtong, A; Shakya, R. 2022. Distribution and characteristics of wastewater treatment plants 
-            within the global river network. Earth Syst. Sci. Data14, 559-577. <a href="https://doi.org/10.5194/essd-14-559-2022, 
-            2022.">https://doi.org/10.5194/essd-14-559-2022, 2022.</a>
-            </h6>""",
-                        unsafe_allow_html=True)
-        st.markdown("""<h6 style='text-align: justify; color: black;'>
-            4. EMPREL. 2022. Portal de dados abertos da Prefeitura da Cidade de Recife. Empresa Municipal de Informática. Disponível em:<a 
-            href="http://www.dados.recife.pe.gov.br/en/dataset/cobertura-da-terra">http://www.dados.recife.pe.gov.br/en/dataset/cobertura-da-terra.</a>
-            </h6>""",
-                        unsafe_allow_html=True)
-        st.markdown("""<h6 style='text-align: justify; color: black;'>
-            5. Noriega, CED; Araujo, M; Lefevre, N. 2013. Spatial and temporal variability of the CO2 fluxes in a Tropical, Highly Urbanized Estuary.
-            Estuaries and Coasts, 36, 1054-1072. <a href="https://doi.org/10.1007/s12237-013-9608-1">https://doi.org/10.1007/s12237-013-9608-1.</a>
-            </h6>""",
-                        unsafe_allow_html=True)
+    
         
     
 
