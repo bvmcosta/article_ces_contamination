@@ -21,9 +21,7 @@
 >> - Windows Subsystem for Linux (WSL)
 >> - Git
 >> - Jupyter Notebook
-
-### <a href="https://bvmcosta-ces-contamination.streamlit.app/">Data visualization with Streamlit</a><br>
-
+>> - <a href="https://bvmcosta-ces-contamination.streamlit.app/">Data visualization with Streamlit</a><br>
 
 # References
 >>
