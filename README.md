@@ -1,6 +1,9 @@
 <p align = "center"><img src="image/logo_horizontal.jpg" alt="" width="500" height="500"/></p>
 <p align = "center"><a href="https://www.ufpe.br/organomar">https://www.ufpe.br/organomar</a></p>
 <br>
+<br>
+<p align = "left"><strong>DOI</strong>:<a href="https://doi.org/10.5281/zenodo.16814310">https://doi.org/10.5281/zenodo.16814310</a></p>
+
 
 # Introduction
 >>
