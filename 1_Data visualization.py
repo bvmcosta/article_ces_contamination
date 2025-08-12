@@ -89,7 +89,7 @@ def wastewater_plants_count(dataframe1, dataframe2):
 #-----------------------------------------------------------------------------
 def boxplot_spm_water(path3):
 
-    water_samples = pd.read_csv('./datasets/water_samples.csv')
+    water_samples = pd.read_csv(path3)
     spm_mediana = water_samples[['site', 'season', 'spm']].groupby(['season', 'site']).median().reset_index()
     poc_mediana = water_samples[['site', 'season', 'oc_percent']].groupby(['season', 'site']).median().reset_index()
 
