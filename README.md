@@ -26,6 +26,10 @@
 >> - Jupyter Notebook
 >> - <a href="https://bvmcosta-ces-contamination.streamlit.app/">Data visualization with Streamlit</a><br>
 
+# Figures and DataFranes
+>>
+>><div style="text-align: justify">Figures 1, 2, 3 and 4, and Tables 1 and 2 can be visualized in the <a href="https://github.com/bvmcosta/article_ces_contamination/blob/main/data_analysis.ipynb">data_analysis.ipynb file</a>.</div><br>
+
 # References
 >>
 >><h6 style='text-align: justify; color: black;'>1. Jones, ER; van Vliet, MTH; Qadir, M; B, MFP. 2020. Country-level and gridded wastewater production, collection, treatment and re-use [dataset]. PANGAEA. <a href="https://doi.pangaea.de/10.1594/PANGAEA.918731">https://doi.pangaea.de/10.1594/PANGAEA.918731</a>.</h6>
