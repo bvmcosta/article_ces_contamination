@@ -24,11 +24,10 @@
 >> - Windows Subsystem for Linux (WSL)
 >> - Git
 >> - Jupyter Notebook
->> - <a href="https://bvmcosta-ces-contamination.streamlit.app/">Data visualization with Streamlit</a><br>
 
 # Figures and DataFranes
 >>
->><div style="text-align: justify">Figures 1, 2, 3 and 4, and Tables 1 and 2 can be visualized in the <a href="https://github.com/bvmcosta/article_ces_contamination/blob/main/data_analysis.ipynb">data_analysis.ipynb file</a>.</div><br>
+>><div style="text-align: justify">Figures 1, 2, 3 and 4, and Tables 1 and 2 can be visualized in the <a href="https://github.com/bvmcosta/article_ces_contamination/blob/main/supplementary_material.ipynb">supplementary_material.ipynb file</a>.</div><br>
 
 # References
 >>
