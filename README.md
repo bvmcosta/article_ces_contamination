@@ -2,7 +2,7 @@
 <p align = "center"><a href="https://www.ufpe.br/organomar">https://www.ufpe.br/organomar</a></p>
 <br>
 <br>
-<p align = "left"><strong>DOI</strong>: <a href="https://doi.org/10.5281/zenodo.16814309">https://doi.org/10.5281/zenodo.16814310</a></p>
+<p align = "left"><strong>DOI</strong>: <a href="https://doi.org/10.5281/zenodo.16814309">https://doi.org/10.5281/zenodo.16814309</a></p>
 
 
 # Introduction
